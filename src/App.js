@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import Details from './components/details';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <h1>Test</h1>
+        <Details />
       </div>
     );
   }
