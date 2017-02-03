@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import SignUp from './components/sign-up';
+import SingleEvent from './components/single-event';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <SignUp />
+        <SingleEvent />
       </div>
     );
   }
