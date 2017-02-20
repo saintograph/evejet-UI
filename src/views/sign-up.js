@@ -1,14 +1,10 @@
 import React, { Component } from 'react';
-import { Card, Form, Checkbox, Button, Divider, Menu } from 'semantic-ui-react';
+import { Card, Form, Checkbox, Button, Divider } from 'semantic-ui-react';
 import reactCSS from 'reactcss';
+import NavBar from '../components/navbar';
 
 const styles = reactCSS({
   'default': {
-    menuStyles: {
-      backgroundColor: 'rgba(0, 0, 0, 0)',
-      border: 'none',
-      boxShadow: 'none',
-    },
     cardContainer: {
       paddingTop: '10vh',
     },
@@ -63,17 +59,10 @@ const styles = reactCSS({
 });
 
 export default class SignUp extends Component {
-  
-  state = { activeItem: 'home' }
-  handleItemClick = (e, { name }) => this.setState({ activeItem: name })
-
   render() {
-    const { activeItem } = this.state;
     return (
       <div>
-        <Menu style={styles.menuStyles}>
-          <Menu.Item name='home' active={activeItem === 'home'} style={{color: '#ffffff'}} onClick={this.handleItemClick} />
-        </Menu>
+        <NavBar />
         <div style={styles.cardContainer}>
           <div className="row center-xs">
             <div className="col-md-4 col-lg-3">

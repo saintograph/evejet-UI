@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import SignUp from './components/sign-up';
+import SignUp from './views/sign-up';
 import Background from './assets/images/bg_01.jpg';
 
 const styles = {
