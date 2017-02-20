@@ -1,11 +1,22 @@
 import React, { Component } from 'react';
-import SingleEvent from './components/single-event';
+import SignUp from './components/sign-up';
+import Background from './assets/images/bg_01.jpg';
+
+const styles = {
+  mainContainer: {
+    backgroundImage: `url(${Background})`,
+    width: '100vw',
+    height: '100vh',
+  },
+};
+
+const { mainContainer } = styles;
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <SingleEvent />
+      <div style={mainContainer}>
+        <SignUp />
       </div>
     );
   }
