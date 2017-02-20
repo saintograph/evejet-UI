@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import SignUp from './views/sign-up';
+// import SignUp from './views/sign-up';
+import CreateEvent from './views/create-event';
 import Background from './assets/images/bg_01.jpg';
 
 const styles = {
@@ -16,7 +17,7 @@ class App extends Component {
   render() {
     return (
       <div style={mainContainer}>
-        <SignUp />
+        <CreateEvent />
       </div>
     );
   }
