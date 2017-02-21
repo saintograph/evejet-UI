@@ -28,7 +28,7 @@ const styles = reactCSS({
     dividerStyle: {
       marginLeft: 15,
       marginRight: 15,
-      borderTop: '1px dotted #e3e7eb',
+      borderTop: '2px dotted #e3e7eb',
     },
     form: {
       marginRight: 50,
