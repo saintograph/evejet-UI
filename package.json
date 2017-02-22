@@ -11,10 +11,15 @@
     "react-scripts": "0.8.5"
   },
   "dependencies": {
+    "aphrodite": "^1.1.0",
+    "leaflet": "^1.0.3",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-dropzone": "^3.10.0",
     "react-dual-timeline": "^0.2.8",
+    "react-geosuggest": "^2.1.0",
+    "react-leaflet": "^1.1.0",
+    "react-magic": "^0.2.2",
     "react-sidebar": "^2.3.0",
     "reactcss": "^1.1.1",
     "semantic-ui-css": "^2.2.7",
