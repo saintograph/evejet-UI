@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Card, Menu, Segment, Divider, Form, TextArea } from 'semantic-ui-react';
+import { Card, Divider, Form, TextArea } from 'semantic-ui-react';
 import reactCSS from 'reactcss';
 import Dropzone from 'react-dropzone';
 import NavBar from '../components/navbar';
