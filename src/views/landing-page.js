@@ -15,8 +15,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#12aeef',
   },
   blurbContainer: {
-    height: '30vh',
-    marginTop: 60,
+    height: '50vh',
+    marginTop: 30,
     padding: 0,
   },
   blurb: {
@@ -27,12 +27,21 @@ const styles = StyleSheet.create({
     textAlign: 'left',
     fontSize: 48,
   },
+  subBlurb: {
+    position: 'relative',
+    top: '50%',
+    transform: 'translateY(-50%)',
+    color: '#ffffff',
+    textAlign: 'left',
+    fontSize: 18,
+    marginTop: -65,
+  },
   registerCTA: {
     float: 'left',
   },
 });
 
-const { menuItems, registerButton, blurb, blurbContainer, registerCTA } = styles;
+const { menuItems, registerButton, blurb, blurbContainer, registerCTA, subBlurb } = styles;
 
 const landingPage = () => {
   return (
@@ -49,6 +58,7 @@ const landingPage = () => {
         <div className="col-md-8">
           <div className={css(blurbContainer)}>
             <h1 className={css(blurb)}>The easiest way to organize your meetings. <br />Period.</h1>
+            <h3 className={css(subBlurb)}>Manage events, people and more</h3>
           </div>
           <div className={css(registerCTA)}>
             <Input type="text" placeholder="Enter your email" action>
