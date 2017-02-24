@@ -22,8 +22,7 @@ const { containerImage } = styles;
 class App extends Component {
   render() {
     return (
-      <div>
-        <img src={Background} style={containerImage} alt="background-dark-forests" />
+      <div style={containerImage}>
         <div>
           <EventDisplay />
         </div>
