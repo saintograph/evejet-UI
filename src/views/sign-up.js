@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import { Field, reduxForm } from 'redux-form';
 import { Card, Form, Checkbox, Button, Divider } from 'semantic-ui-react';
 import reactCSS from 'reactcss';
+import { registerUser } from '../actions';
 import NavBar from '../components/navbar';
 
 const styles = reactCSS({

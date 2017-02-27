@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "aphrodite": "^1.1.0",
+    "axios": "^0.15.3",
     "leaflet": "^1.0.3",
     "react": "^15.4.2",
     "react-cookie": "^1.0.4",

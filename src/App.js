@@ -1,9 +1,5 @@
 import React, { Component } from 'react';
 import SignUp from './views/sign-up';
-import CreateEvent from './views/create-event';
-import EventDetails from './views/event-details';
-import LandingPage from './views/landing-page';
-import EventDisplay from './views/event-display';
 import Background from './assets/images/bg_01.jpg';
 
 const styles = {
@@ -24,7 +20,7 @@ class App extends Component {
     return (
       <div style={containerImage}>
         <div>
-          <SignUp />
+          {this.props.children}
         </div>
       </div>
     );
