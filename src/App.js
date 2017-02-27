@@ -24,7 +24,7 @@ class App extends Component {
     return (
       <div style={containerImage}>
         <div>
-          <EventDisplay />
+          <SignUp />
         </div>
       </div>
     );
